@@ -1,7 +1,9 @@
 # RSC-Net: 3D Human Pose, Shape and Texture from Low-Resolution Images and Videos
-Implementation for "3D Human Pose, Shape and Texture from Low-Resolution Images and Videos", TPAMI 2021
+Implementation for ["3D Human Pose, Shape and Texture from Low-Resolution Images and Videos", TPAMI 2021](https://arxiv.org/abs/2103.06498)
 
-[Paper](https://arxiv.org/abs/2103.06498), [ECCV version](https://arxiv.org/abs/2007.13666)
+Conference version: ["3D Human Shape and Pose from a Single Low-Resolution Image with Self-Supervised Learning", ECCV 2020](https://arxiv.org/abs/2007.13666)
+
+[Project page](https://sites.google.com/view/xiangyuxu/3d_eccv20)
 
 ## Abstract
 * RSC-Net:
