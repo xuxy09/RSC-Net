@@ -5,7 +5,7 @@ Conference version: ["3D Human Shape and Pose from a Single Low-Resolution Image
 
 [Project page](https://sites.google.com/view/xiangyuxu/3d_eccv20)
 
-## Abstract
+## What is new?
 * RSC-Net:
   + Resolution-aware structure
   + Self-supervised learning
