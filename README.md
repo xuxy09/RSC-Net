@@ -34,12 +34,11 @@ If you are running the code without a screen, please install OSMesa and the corr
 ### Data preparation
 * Download [meta data](https://www.dropbox.com/s/jb3xudoef840nr7/data.zip?dl=0), and unzip it in "./data".
 
-
-* Download [pretrained RSC-Net](https://www.dropbox.com/s/waa3r9tc0emepar/RSC-Net.pt?dl=0), and put it in "./pretrained".
-
 Note that all paths are set in "config.py".
 
 ### Demo
+* Download [pretrained RSC-Net](https://www.dropbox.com/s/waa3r9tc0emepar/RSC-Net.pt?dl=0), and put it in "./pretrained".
+* Run:
 ```
 python demo.py --checkpoint=./pretrained/RSC-Net.pt --img_path=./examples/im1.png
 ```
