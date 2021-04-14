@@ -15,14 +15,34 @@ Conference version: ["3D Human Shape and Pose from a Single Low-Resolution Image
 * TexGlo: Global module for 3D texture reconstruction
 
 ## Brief introduction
-![Alt Text](./intro.gif)
+![Alt Text](doc/intro.gif)
 
 ## Video
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/OxFtRSlALIc/0.jpg)](https://www.youtube.com/watch?v=OxFtRSlALIc)
 
 
 ## Code
-Coming soon...
+### Packages
+Make sure you have gcc==5.x.x for installing the packages. Then run:
+
+```
+bash install_environment.sh
+```
+
+If you are running the code without a screen, please install OSMesa and the corresponding PyOpenGL: https://pyrender.readthedocs.io/en/latest/install/index.html#installing-osmesa. Then uncomment the 2nd line of "utils/renderer.py".
+
+### Data preparation
+* Download [meta data](https://www.dropbox.com/s/jb3xudoef840nr7/data.zip?dl=0), and unzip it in "./data".
+
+
+* Download [pretrained RSC-Net](https://www.dropbox.com/s/waa3r9tc0emepar/RSC-Net.pt?dl=0), and put it in "./pretrained".
+
+Note that all paths are set in "config.py".
+
+### Demo
+```
+python demo.py --checkpoint=./pretrained/RSC-Net.pt --img_path=./examples/im1.png
+```
 
 &nbsp;
 &nbsp;
