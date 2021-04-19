@@ -42,6 +42,7 @@ Note that all paths are set in "config.py".
 ```
 python demo.py --checkpoint=./pretrained/RSC-Net.pt --img_path=./examples/im1.png
 ```
+Note: if you have trouble in using Pyrender, please try "demo_nr.py".
 
 &nbsp;
 &nbsp;
