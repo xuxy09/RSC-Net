@@ -10,7 +10,7 @@ class Renderer():
         # Parameters for rendering
         self.focal_length = focal_length
         self.render_res = img_res
-        # We use Neural 3D mesh renderer for rendering masks and part segmentations
+        
         self.neural_renderer = nr.Renderer(dist_coeffs=None, orig_size=self.render_res,
                                            image_size=img_res,
                                            light_intensity_ambient=0.5,
