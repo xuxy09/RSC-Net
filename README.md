@@ -31,6 +31,7 @@ bash install_environment.sh
 
 If you are running the code without a screen, please install [OSMesa and the corresponding PyOpenGL](https://pyrender.readthedocs.io/en/latest/install/index.html#installing-osmesa). Then uncomment the 2nd line of "utils/renderer.py".
 
+
 ### Data preparation
 * Download [meta data](https://www.dropbox.com/s/jb3xudoef840nr7/data.zip?dl=0), and unzip it in "./data".
 
@@ -42,7 +43,11 @@ Note that all paths are set in "config.py".
 ```
 python demo.py --checkpoint=./pretrained/RSC-Net.pt --img_path=./examples/im1.png
 ```
-Note: if you have trouble in using Pyrender, please try "demo_nr.py".
+* Note: if you have trouble in using Pyrender, please try "demo_nr.py":
+```
+python demo_nr.py --checkpoint=./pretrained/RSC-Net.pt --img_path=./examples/im1.png
+```
+If your neural-renderer has errors, please re-install the package from the [source](https://github.com/daniilidis-group/neural_renderer).
 
 &nbsp;
 &nbsp;
