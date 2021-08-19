@@ -18,7 +18,8 @@ Conference version: ["3D Human Shape and Pose from a Single Low-Resolution Image
 ![Alt Text](doc/intro.gif)
 
 ## Video
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/OxFtRSlALIc/0.jpg)](https://www.youtube.com/watch?v=OxFtRSlALIc)
+[![Video](https://img.youtube.com/vi/OxFtRSlALIc/0.jpg)](https://www.youtube.com/watch?v=OxFtRSlALIc)
+
 
 
 ## Code
@@ -35,6 +36,8 @@ If you are running the code without a screen, please install [OSMesa and the cor
 ### Data preparation
 * Download [meta data](https://www.dropbox.com/s/jb3xudoef840nr7/data.zip?dl=0), and unzip it in "./data".
 
+* Download [datasets](https://www.dropbox.com/s/wp5tkhahm19vo1i/datasets_pkl.zip?dl=0), and unzip it in "./datasets_pkl".
+
 Note that all paths are set in "config.py".
 
 ### Demo
@@ -48,6 +51,16 @@ python demo.py --checkpoint=./pretrained/RSC-Net.pt --img_path=./examples/im1.pn
 python demo_nr.py --checkpoint=./pretrained/RSC-Net.pt --img_path=./examples/im1.png
 ```
 If your neural-renderer has errors, please re-install the package from the [source](https://github.com/daniilidis-group/neural_renderer).
+
+### Evaluation
+```
+python eval.py --checkpoint=./pretrained/RSC-Net.pt 
+```
+
+### Training
+```
+python train.py --name=RSC-Net 
+```
 
 &nbsp;
 &nbsp;
@@ -69,3 +82,7 @@ booktitle={ECCV},
 year={2020},
 }
 ```
+
+
+
+
