@@ -30,7 +30,7 @@ Make sure you have gcc==5.x.x for installing the packages. Then run:
 bash install_environment.sh
 ```
 
-If you are running the code without a screen, please install [OSMesa and the corresponding PyOpenGL](https://pyrender.readthedocs.io/en/latest/install/index.html#installing-osmesa). Then uncomment the 2nd line of "utils/renderer.py".
+If you are running the code without a screen, please install [OSMesa and the corresponding PyOpenGL](https://github.com/xuxy09/RSC-Net/blob/master/doc/pyrender_woscreen_install.md). Then uncomment the 2nd line of "utils/renderer.py".
 
 
 ### Data preparation
