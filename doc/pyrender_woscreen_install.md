@@ -17,6 +17,13 @@ git clone https://github.com/mmatl/pyopengl.git
 pip install ./pyopengl
 ```
 
+4. Remember to set the environment as osmesa. Put this at the beginning of your code:
+```
+import os
+os.environ["PYOPENGL_PLATFORM"] = "osmesa"
+os.environ["MUJOCO_GL"] = "osmesa"
+```
+
 ---
 
 You should be able to work with pyrender now.
