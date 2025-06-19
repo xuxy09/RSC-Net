@@ -34,14 +34,14 @@ If you are running the code without a screen, please install [OSMesa and the cor
 
 
 ### Data preparation
-* Download [meta data](https://www.dropbox.com/s/jb3xudoef840nr7/data.zip?dl=0), and unzip it in "./data".
+* Download [meta data](https://share.weiyun.com/Yc6odhd4), and unzip it in "./data".
 
-* Download [datasets](https://www.dropbox.com/s/wp5tkhahm19vo1i/datasets_pkl.zip?dl=0), and unzip it in "./datasets_pkl".
+* Download [datasets](https://share.weiyun.com/ecOB62cd), and unzip it in "./datasets_pkl".
 
 Note that all paths are set in "config.py".
 
 ### Demo
-* Download [pretrained RSC-Net](https://www.dropbox.com/s/waa3r9tc0emepar/RSC-Net.pt?dl=0), and put it in "./pretrained".
+* Download [pretrained RSC-Net](https://share.weiyun.com/196jQ3Pv), and put it in "./pretrained".
 * Run:
 ```
 python demo.py --checkpoint=./pretrained/RSC-Net.pt --img_path=./examples/im1.png
